@@ -3,7 +3,7 @@ import App from './App.vue'
 import Ninjas from './Ninjas.vue'
 import VueResources from 'vue-resource'
 
-Vue.use[VueResources];
+Vue.use(VueResources);
 Vue.component('ninjas', Ninjas);
 
 new Vue({
